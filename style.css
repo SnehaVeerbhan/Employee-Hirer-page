@@ -1,0 +1,116 @@
+body{
+    /* background-color: rgb(22, 22, 137); */
+    background: linear-gradient(to right,rgb(77, 1, 171),rgb(0, 194, 255));
+}
+i{
+    color: white;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    margin-top: 100px;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    line-height: 30px;
+}
+.content h2{
+    font-size: 50px;
+    padding-left: 15px;
+    margin-top: 20%;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.form{
+    width: 880px;
+    height: 570px;
+    background: linear-gradient(to top,white,white);
+    position: absolute;
+    top:50px;
+    left:600px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: -50px;
+}
+.form h2{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.form input, #sequrity{
+    width: 250px;
+    height: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.btn1{
+    width: 150px;
+    height: 35px;
+    margin-left: 600px;
+    margin-top: 50px;
+    font-size: medium;
+    background-color: rgb(40, 40, 161);  
+    border-radius: 20px;  
+}
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    background-color: rgb(28, 28, 194);
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    display:flex;
+    border-radius:20px ;
+    border-color: rgb(28, 28, 194);
+    /* margin-left: 600px; */
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+.btnn{
+    background-color: rgb(28, 28, 194);
+    display:flex;
+    border-radius:20px ;
+    position: absolute;
+    top:5%;
+    right:2%;
+    width: 240px;
+    height:48px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+     background-color: white;
+     border-radius: 22px;
+     color: rgb(18, 18, 59);
+     height: 40px;
+     position: relative;
+     top: 8%;
+}
+.btn a:hover{
+    color: rgb(15, 15, 55);
+}
